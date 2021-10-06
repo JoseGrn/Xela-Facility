@@ -58,75 +58,63 @@
                     Maecenas hendrerit sapien sed nunc aliquam, in auctor ipsum tincidunt.</p>
                 </article>
                 <article class="Cards">
-                    <h3>Espacio 1</h3>
+                    <h3>Espacio 2</h3>
                     <p>Rellene este espacio con lo que usted quiera. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Maecenas hendrerit sapien sed nunc aliquam, in auctor ipsum tincidunt.</p>
                 </article>
                 <article class="Cards">
-                    <h3>Espacio 1</h3>
+                    <h3>Espacio 3</h3>
                     <p>Rellene este espacio con lo que usted quiera. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Maecenas hendrerit sapien sed nunc aliquam, in auctor ipsum tincidunt.</p>
                 </article>
             </div>
         </section>
 
-        <div class="center">
-            <section id="content">
-                <h2 class="subheader">Last articles</h2>
-
-                <script type="text/javascript">
-                    window.addEventListener("load", function(){
-                        var template = document.getElementById("article-template");
-                        
-                        var articles = document.getElementById("articles");
-                        
-                        for(var i = 1; i <= 5; i++){
-                            var clonado = template.cloneNode(true);
-                            clonado.removeAttribute("id");
-                            var h2 = clonado.getElementsByTagName("h2")[0];
-                            h2.innerHTML = h2.textContent + ' ' + i;
-                            articles.appendChild(clonado);
-                        }
-                    });
-                </script>
-
-                <!--LISTADO ARTICULOS-->
-                <div id="articles">
-                    <article class="article-item" id="article-template">
-                        <div class="image-wrap">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Cuesta_del_obispo_01.jpg" alt="paisaje"/>
-                        </div>
-    
-                        <h2>Test article</h2>
-                        <span class="date">
-                            5 minutes ago
-                        </span>
-                        <a href="#">Read more</a>
-
-                    </article>
-                    <!--ANADIR LOS ARTICULOS VIA JS-->
-
-                </div>
-
-            </section>
-
-            <aside id="sidebar">
-                <div id="nav-blog" class="sidebar-item">
-                    <h3>You can do this</h3>
-                    <a href="#" class="btn btn-success">Create article</a>
-                </div>
-
-                <div id="search" class="sidebar-item">
-                    <h3>Search</h3>
-                    <p>Find the article</p>
-                    <form>
-                        <input type="text" name="search">
-                        <input type="submit" name="submit" value="Search" class="btn">
-                    </form>
-                </div>
-            </aside>
-            <div class="clearfix"></div>
-        </div>
+        <section class="InfoSpace-class">
+            <h2>Some text here</h2>
+            <div class="InfoSpace-separator">
+                <article class="InfoSpace">
+                    <h3>Space 1</h3>
+                    <p>Rellene este espacio con lo que usted quiera. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Maecenas hendrerit sapien sed nunc aliquam, in auctor ipsum tincidunt.</p>
+                    <img src="">
+                </article>
+                <article class="InfoSpace">
+                    <h3>Space 2</h3>
+                    <p>Rellene este espacio con lo que usted quiera. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Maecenas hendrerit sapien sed nunc aliquam, in auctor ipsum tincidunt.</p>
+                    <img src="">
+                </article>
+            </div>
+            <div class="InfoSpace-separator">
+                <article class="InfoSpace">
+                    <h3>Space 3</h3>
+                    <p>Rellene este espacio con lo que usted quiera. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Maecenas hendrerit sapien sed nunc aliquam, in auctor ipsum tincidunt.</p>
+                    <img src="">
+                </article>
+                <article class="InfoSpace">
+                    <h3>Space 4</h3>
+                    <p>Rellene este espacio con lo que usted quiera. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Maecenas hendrerit sapien sed nunc aliquam, in auctor ipsum tincidunt.</p>
+                    <img src="">
+                </article>
+            </div>
+            <div class="InfoSpace-separator">
+                <article class="InfoSpace">
+                    <h3>Space 5</h3>
+                    <p>Rellene este espacio con lo que usted quiera. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Maecenas hendrerit sapien sed nunc aliquam, in auctor ipsum tincidunt.</p>
+                    <img src="">
+                </article>
+                <article class="InfoSpace">
+                    <h3>Space 6</h3>
+                    <p>Rellene este espacio con lo que usted quiera. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Maecenas hendrerit sapien sed nunc aliquam, in auctor ipsum tincidunt.</p>
+                    <img src="">
+                </article>
+            </div>
+        </section>
 
         <footer id="footer">
             <div class="center">
