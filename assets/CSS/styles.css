@@ -25,7 +25,21 @@ body {
     overflow: hidden;
 }
 
+#header-about{
+    border-top: 10px solid #4fb9d6;
+    background-image: linear-gradient(120deg, rgba(255, 255, 255, 0.699) 0%, rgba(85, 27, 35, 0.692) 100%), url("../images/teamwork.jpg");
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
 #header {
+    border-top: 10px solid #4fb9d6;
     background-image: linear-gradient(120deg, rgba(255, 255, 255, 0.699) 0%, rgba(85, 27, 35, 0.692) 100%), url("../images/header.jpg");
     width: 100%;
     height: 650px;
@@ -225,8 +239,18 @@ body {
 
 .InfoSpace-class-services h2{
     margin-top: 0px;
+    margin-bottom: 0px;
     padding: 20px;
     text-align: center;
+}
+
+#InfoSpace-Text{
+    background: #c5b3b3;
+    margin-top: 0px;
+    padding: 5px;
+    text-align: center;
+    border-left: 50px solid #c5b3b3;
+    border-right: 50px solid #c5b3b3;
 }
 
 .InfoSpace-class{
