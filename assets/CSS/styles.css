@@ -12,6 +12,19 @@ body {
     -moz-osx-font-smoothing: antialiased;
 }
 
+#header-contact{
+    border-top: 10px solid #4fb9d6;
+    background-image: linear-gradient(120deg, rgba(255, 255, 255, 0.699) 0%, rgba(85, 27, 35, 0.692) 100%), url("../images/contactanos.jpg");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
 #header-services{
     border-top: 10px solid #4fb9d6;
     background-image: linear-gradient(120deg, rgba(255, 255, 255, 0.699) 0%, rgba(85, 27, 35, 0.692) 100%), url("../images/limpieza.jpg");
@@ -118,6 +131,12 @@ body {
     transition: 300ms all;
 }
 
+#TittleH1-contact{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+}
+
 #TittleH1-services{
     width: 100%;
     height: 50px;
@@ -197,10 +216,24 @@ body {
     float: left;
 }
 
+.sidebar-item-contact {
+    border-top: 0px;
+    background: #f7f7f7;
+    padding: 10px;
+}
+
 .sidebar-item {
     background: #f7f7f7;
     padding: 20px;
     margin-top: 30px;
+}
+
+input[type = "text"]{
+    width: 45%;
+    border: 1px solid #ccc;
+    padding: 3px;
+    margin-bottom: 10px;
+    transition: 300ms all;
 }
 
 .Cards-Section{
@@ -282,8 +315,29 @@ body {
     margin-bottom: 50px;
 }
 
+.InfoSpace-contact1{
+    width: 100%;
+    text-align: center;
+    transform: scale(1);
+    transition: transform 0.6s;
+}
+
 .InfoSpace-services img{
     width: 200px;
+}
+
+.InfoSpace-contact-tittle1{
+    width: 15%;
+    float: left;
+}
+
+.InfoSpace-contact-tittle2{
+    width: 77%;
+    float: left;
+}
+
+.InfoSpace-contact-tittle1 h5{
+    padding: 0px;
 }
 
 .InfoSpace-sections-Text{
@@ -296,7 +350,7 @@ body {
     width: 29%;
     float: left;
     padding-top: 80px;
-    padding-left: px;
+    padding-left: 10px;
 }
 
 .InfoSpace{
