@@ -13,8 +13,8 @@ body {
 }
 
 #header-contact{
-    border-top: 10px solid #6c7ec0;
-    background-image: linear-gradient(120deg, rgba(255, 255, 255, 0.699) 0%, rgba(85, 27, 35, 0.692) 100%), url("../images/contactanos.jpg");
+    border-top: 10px solid #415bbb;
+    background-image: linear-gradient(120deg, rgba(60, 233, 54, 0.459) 0%, rgba(61, 41, 240, 0.623) 100%), url("../images/contactanos.jpg");
     width: 100%;
     height: 800px;
     background-repeat: no-repeat;
@@ -26,8 +26,8 @@ body {
 }
 
 #header-services{
-    border-top: 10px solid #6c7ec0;
-    background-image: linear-gradient(120deg, rgba(255, 255, 255, 0.699) 0%, rgba(85, 27, 35, 0.692) 100%), url("../images/limpieza.jpg");
+    border-top: 10px solid #415bbb;
+    background-image: linear-gradient(120deg, rgba(60, 233, 54, 0.459) 0%, rgba(61, 41, 240, 0.623) 100%), url("../images/limpieza.jpg");
     width: 100%;
     height: 350px;
     background-repeat: no-repeat;
@@ -39,8 +39,8 @@ body {
 }
 
 #header-about{
-    border-top: 10px solid #6c7ec0;
-    background-image: linear-gradient(120deg, rgba(255, 255, 255, 0.699) 0%, rgba(85, 27, 35, 0.692) 100%), url("../images/teamwork.jpg");
+    border-top: 10px solid #415bbb;
+    background-image: linear-gradient(120deg, rgba(60, 233, 54, 0.459) 0%, rgba(61, 41, 240, 0.623) 100%), url("../images/teamwork.jpg");
     width: 100%;
     height: 350px;
     background-repeat: no-repeat;
@@ -52,8 +52,8 @@ body {
 }
 
 #header {
-    border-top: 10px solid #6c7ec0;
-    background-image: linear-gradient(120deg, rgba(255, 255, 255, 0.699) 0%, rgba(85, 27, 35, 0.692) 100%), url("../images/header.jpg");
+    border-top: 10px solid #415bbb;
+    background-image: linear-gradient(120deg, rgba(60, 233, 54, 0.459) 0%, rgba(61, 41, 240, 0.623) 100%), url("../images/header.jpg");
     width: 100%;
     height: 650px;
     background-repeat: no-repeat;
@@ -119,6 +119,7 @@ body {
     text-decoration: none;
     color: #fff;
     transition: 300ms all;
+    font-weight: bold;
 }
 
 #menu ul a:hover {
@@ -177,7 +178,7 @@ body {
 
 .HeaderFix svg path{
     stroke: none;
-    fill: #6c7ec0;
+    fill: #415bbb;
 }
 
 #slider {
@@ -228,7 +229,7 @@ input[type = "text"]{
 
 .Cards-Section{
     padding:0%;
-    background: #6c7ec0;
+    background: #415bbb;
 }
 
 .Cards-Section h2{
@@ -257,7 +258,7 @@ input[type = "text"]{
 
 .InfoSpace-class-services{
     padding:0%;
-    background: #6c7ec0;
+    background: #415bbb;
 }
 
 .InfoSpace-class-services h2{
@@ -343,19 +344,91 @@ input[type = "text"]{
     padding-left: 10px;
 }
 
+.InfoSpace-restaurants {
+    background-image: url("../images/restaurants.jpg");
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1);
+    transition: transform 0.6s;
+    margin-bottom: 50px;
+    color: transparent;
+}
+
+.InfoSpace-office{
+    background-image: url("../images/office.jpg");
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1);
+    transition: transform 0.6s;
+    margin-bottom: 50px;
+    color: transparent;
+}
+
+.InfoSpace-construction{
+    background-image: url("../images/construction.jpg");
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1);
+    transition: transform 0.6s;
+    margin-bottom: 50px;
+    color: transparent;
+}
+
+.InfoSpace-gym{
+    background-image: url("../images/gym.jpg");
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1);
+    transition: transform 0.6s;
+    margin-bottom: 50px;
+    color: transparent;
+}
+
+.InfoSpace-office:hover{
+    display: block;
+    color: black;
+    background: white;
+}
+
+.InfoSpace-restaurants:hover{
+    display: block;
+    color: black;
+    background: white;
+}
+
+.InfoSpace-construction:hover{
+    display: block;
+    color: black;
+    background: white;
+}
+
+.InfoSpace-gym:hover{
+    display: block;
+    color: black;
+    background: white;
+}
+
 .InfoSpace{
+    background: white;
     width: 30%;
     text-align: center;
     height: 300px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
     transform: scale(1);
     transition: transform 0.6s;
-    background: white;
     margin-bottom: 50px;
 }
 
 #footer {
-    background: #6c7ec0;
+    background: #415bbb;
     width: 100%;
     height: 50px;
     line-height: 50px;
