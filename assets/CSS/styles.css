@@ -53,9 +53,48 @@ body {
 
 #header {
     border-top: 10px solid #415bbb;
-    background-image: linear-gradient(120deg, rgba(60, 233, 54, 0.459) 0%, rgba(61, 41, 240, 0.623) 100%), url("../images/header.jpg");
+    background-image: linear-gradient(120deg, rgba(60, 233, 54, 0.459) 0%, rgba(61, 41, 240, 0.623) 100%), url("../images/sky.jpg");
     width: 100%;
     height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+#header-restaurants {
+    border-top: 10px solid #415bbb;
+    background-image: linear-gradient(120deg, rgba(60, 233, 54, 0.459) 0%, rgba(61, 41, 240, 0.623) 100%), url("../images/sky.jpg");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+.Info-Services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Info-Services h2{
+    color: white;
+}
+
+.Info-Services p{
+    color: white;
+}
+
+#header-all-services{
+    border-top: 10px solid #415bbb;
+    background-image: linear-gradient(120deg, rgba(60, 233, 54, 0.459) 0%, rgba(61, 41, 240, 0.623) 100%), url("../images/stars.jpg");
+    width: 100%;
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -145,6 +184,11 @@ body {
     height: 50px;
     color: #fff;
     padding-top: 100px;
+}
+#TittleH1 h3{
+    width: 100%;
+    height: 50px;
+    color: #fff;
 }
 
 #TittleH1 a{
@@ -250,11 +294,15 @@ input[type = "text"]{
     width: 23%;
     text-align: center;
     height: 300px;
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
     transform: scale(1);
     transition: transform 0.6s;
-    background: white;
+    background: none;
     margin-bottom: 50px;
+}
+
+
+.Cards i{
+    padding-top: 8px;
 }
 
 .InfoSpace-class-services{
@@ -294,6 +342,7 @@ input[type = "text"]{
     width: 100%;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    color: black;
 }
 
 .InfoSpace-services{
@@ -397,24 +446,28 @@ input[type = "text"]{
     display: block;
     color: black;
     background: white;
+    text-decoration: none;
 }
 
 .InfoSpace-restaurants:hover{
     display: block;
     color: black;
     background: white;
+    text-decoration: none;
 }
 
 .InfoSpace-construction:hover{
     display: block;
     color: black;
     background: white;
+    text-decoration: none;
 }
 
 .InfoSpace-gym:hover{
     display: block;
     color: black;
     background: white;
+    text-decoration: none;
 }
 
 .InfoSpace{
