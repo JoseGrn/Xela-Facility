@@ -401,7 +401,7 @@ input[type = "text"]{
     text-align: center;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
     transform: scale(1);
-    transition: transform 0.6s;
+    transition: transform 2s;
     margin-bottom: 50px;
     color: transparent;
 }
@@ -413,7 +413,7 @@ input[type = "text"]{
     text-align: center;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
     transform: scale(1);
-    transition: transform 0.6s;
+    transition: transform 2s;
     margin-bottom: 50px;
     color: transparent;
 }
@@ -425,7 +425,7 @@ input[type = "text"]{
     text-align: center;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
     transform: scale(1);
-    transition: transform 0.6s;
+    transition: transform 2s;
     margin-bottom: 50px;
     color: transparent;
 }
@@ -437,7 +437,7 @@ input[type = "text"]{
     text-align: center;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
     transform: scale(1);
-    transition: transform 0.6s;
+    transition: transform 2s;
     margin-bottom: 50px;
     color: transparent;
 }
@@ -492,4 +492,95 @@ input[type = "text"]{
 #footer p {
     margin: 0px;
     padding: 0px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 1530px) {
+    #menu ul{
+        width: auto;
+    }
+
+    .InfoSpace-restaurants,.InfoSpace-gym, .InfoSpace-office,.InfoSpace-construction {
+        width: 33%;
+    }
+}
+
+@media (max-width: 1260px) {
+
+    .InfoSpace-restaurants,.InfoSpace-gym, .InfoSpace-office,.InfoSpace-construction {
+        width: 37%;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .InfoSpace-restaurants,.InfoSpace-gym, .InfoSpace-office,.InfoSpace-construction {
+        width: 43%;
+    }
+}
+
+@media (max-width: 868px) {
+
+    #logo{
+        float: none;
+        width: 180px;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+
+    #menu, 
+    #menu ul{
+        clear: both;
+        float: none;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 10px;
+        line-height: 43px;
+    }
+
+    .InfoSpace-restaurants,.InfoSpace-gym, .InfoSpace-office,.InfoSpace-construction {
+        width: 65%;
+        
+    }
+    
+}
+
+@media (max-width: 700px) {
+
+    .InfoSpace-restaurants,.InfoSpace-gym, .InfoSpace-office,.InfoSpace-construction {
+        width: 75%;
+    }
+
+    .Cards{
+        padding: 0%;
+        margin: 0%;
+        width: 60%;
+        height: 220px;
+    }
+}
+
+@media (max-width: 666px) {
+    
+    #TittleH1 h1{
+        padding-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 580px) {
+
+    .InfoSpace-restaurants,.InfoSpace-gym, .InfoSpace-office,.InfoSpace-construction {
+        height: 200px;
+        background-size: 100%;
+    }
+}
+
+@media (max-width: 554px) {
+
+    #menu, #menu ul{
+        
+    }
 }
