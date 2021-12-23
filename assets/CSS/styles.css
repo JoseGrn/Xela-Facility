@@ -496,7 +496,7 @@ input[type = "text"]{
 
 
 /* RESPONSIVE */
-
+/* INDEX */
 @media (max-width: 1530px) {
     #menu ul{
         width: auto;
@@ -578,9 +578,81 @@ input[type = "text"]{
     }
 }
 
-@media (max-width: 554px) {
+/* SERVICES */
+@media (max-width: 1485px) {
 
-    #menu, #menu ul{
-        
+    .InfoSpace-sections-Text{
+        width: 65%;
+        float: left;
+        padding-left: 40px;
     }
+    
+}
+
+@media (max-width: 20px) {
+
+    .InfoSpace-sections-Text{
+        padding-left: 20px;
+    }
+    
+}
+
+@media (max-width: 930px) {
+
+    .InfoSpace-sections-Text{
+        padding-left: 20px;
+    }
+    
+}
+
+@media (max-width: 770px) {
+
+    .InfoSpace-services{
+        height: 400px;
+    }
+
+    .InfoSpace-sections-Text{
+        width: 100%;
+        padding: 0%;
+    }
+    
+    .InfoSpace-sections-img{
+        width: auto;
+        float: none;
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    
+}
+
+@media (max-width: 637px) {
+
+    .InfoSpace-services{
+        height: 420px;
+    }
+    
+}
+
+@media (max-width: 548px) {
+
+    .InfoSpace-services{
+        height: 440px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+    .InfoSpace-services{
+        height: 460px;
+    }
+    
+}
+
+@media (max-width: 451px) {
+
+    .InfoSpace-services{
+        height: 480px;
+    }
+    
 }
