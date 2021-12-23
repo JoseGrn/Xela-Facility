@@ -628,11 +628,11 @@ input[type = "text"]{
 @media (max-width: 637px) {
 
     .InfoSpace-services{
-        height: 420px;
+        height: auto;
     }
     
 }
-
+/*
 @media (max-width: 548px) {
 
     .InfoSpace-services{
@@ -655,4 +655,4 @@ input[type = "text"]{
         height: 480px;
     }
     
-}
+}*/
