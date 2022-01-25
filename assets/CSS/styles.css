@@ -470,6 +470,46 @@ input[type = "text"]{
     text-decoration: none;
 }
 
+.InfoSpace-High-Dusting{
+    background-image: url("../images/High-Dusting.jpg");
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1);
+    transition: transform 2s;
+    margin-bottom: 50px;
+    color: transparent;
+    background-size: 500px;
+}
+
+.InfoSpace-High-Dusting:hover{
+    display: block;
+    color: black;
+    background: white;
+    text-decoration: none;
+}
+
+.InfoSpace-Pressure-Washer{
+    background-image: url("../images/pressure-washer.jpg");
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1);
+    transition: transform 2s;
+    margin-bottom: 50px;
+    color: transparent;
+    background-size: 500px;
+}
+
+.InfoSpace-Pressure-Washer:hover{
+    display: block;
+    color: black;
+    background: white;
+    text-decoration: none;
+}
+
 .InfoSpace{
     background: white;
     width: 30%;
